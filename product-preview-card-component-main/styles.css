@@ -1,0 +1,95 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.img-1 {
+    margin-top: 150px;
+    margin-left: 320px;
+    height: 400px;
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card {
+    margin-top: -405px;
+    margin-left: 600px;
+    background-color: hsl(0, 0%, 100%);
+    height: 360px;
+    width: 240px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+
+
+
+
+p{
+    color:hsl(228, 12%, 48%);
+    line-height:20px ;
+    font-size: 14px;
+    margin-left:15px ;
+}
+
+.perfume{
+    margin-left:15px ;    
+}
+.price{
+    margin-left:10px;
+    color:hsl(158, 36%, 37%);
+    font-family: fraunces; 
+}
+h5{
+    margin-left:15px ;
+    opacity:4px;
+    font-family:fraunces ;
+    color:hsl(228, 12%, 48%);    
+}
+h6  {
+    margin-left:120px ;
+    margin-right:200px ;
+    margin-bottom:25px ;
+    margin-top:-40px ;
+    color: hsl(228, 12%, 48%);
+    opacity:1px;
+    text-decoration: line-through;
+
+}
+
+.cart {
+    position: relative;
+    text-align: center;
+    border: 30px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-family: Montserrat;
+    font-weight: 500;
+    height: 20px;
+    padding: 14px;
+}
+@media screen and (max-width : 1000px) {
+    .card{
+        margin-left: 34%;
+        } 
+     } 
+
+@media screen and (max-width : 700px) {
+    .card{
+        margin-left: 30%;
+        }  
+    }
+        
+    
+@media screen and (max-width : 500px) {
+    .card{
+        margin-left: 20%;
+        } 
+    }
+    
+@media screen and (max-width : 360px) {
+    .card{
+        margin-left: 6%;
+        }
+    }
